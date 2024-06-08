@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event prime Organisers</title>
+    <link rel="stylesheet" href="music.css" />
+    <script src="music.js"></script>
+</head>
+<body>
+       
+         
+        <section class="hero">
+            <div>Experience the Best of Rajasthani Entertainment</div>
+        </section>
+        
+        <div class="container">
+            <div id="folk-dance">
+                <h2 class="section-title">Folk Dances</h2>
+                <div class="cards">
+                    <div class="card" onclick="openModal('dance1')">
+                        <img src="musicimg/dance1.jpg" alt="Folk Dance 1"> <!-- Replace with actual image URL -->
+                        <div class="card-content">
+                            <h3>Kalbeliya Dance</h3>
+                            <p>A mesmerizing dance form performed by the Kalbeliya community.</p>
+                            <p class="price">Price:₹20,000</p>
+                        </div>
+                    </div>
+                    <div class="card" onclick="openModal('dance2')">
+                        <img src="musicimg/dance2.jpg" alt="Folk Dance 2"> <!-- Replace with actual image URL -->
+                        <div class="card-content">
+                            <h3>Ghoomar Dance</h3>
+                            <p>A traditional dance that reflects the rich Rajasthani culture.</p>
+                            <p class="price">Price:₹25,000</p>
+                        </div>
+                    </div>
+                    <!-- Add more cards as needed -->
+                </div>
+            </div>
+        
+            <div id="live-music">
+                <h2 class="section-title">Live Music</h2>
+                <div class="cards">
+                    <div class="card" onclick="openModal('music1')">
+                        <img src="musicimg/music1.jpg" alt="Live Music 1"> <!-- Replace with actual image URL -->
+                        <div class="card-content">
+                            <h3>Rajasthani Folk Band</h3>
+                            <p>Experience the soulful music of Rajasthan with our folk band.</p>
+                            <p class="price">Price ₹23,000</p>
+                        </div>
+                    </div>
+                    <div class="card" onclick="openModal('music2')">
+                        <img src="musicimg/music2.jpg" alt="Live Music 2"> <!-- Replace with actual image URL -->
+                        <div class="card-content">
+                            <h3>Classical Rajasthani Singer</h3>
+                            <p>A captivating performance by a classical Rajasthani singer.</p>
+                            <p class="price">Price:₹33,050</p>
+                        </div>
+                    </div>
+                    <!-- Add more cards as needed -->
+                </div>
+            </div>
+        
+           
+         
+        <!-- Modals -->
+        <div id="dance1" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('dance1')">&times;</span>
+                <h2>Kalbeliya Dance</h2>
+                <p>Kalbeliya dance is one of the most sensuous dance forms of Rajasthan. Performed by the Kalbeliya community, this dance form is famous for its graceful movements and traditional Rajasthani music.</p>
+                <p>Price:₹₹20,000</p>
+            </div>
+        </div>
+        
+        <div id="dance2" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('dance2')">&times;</span>
+                <h2>Ghoomar Dance</h2>
+                <p>Ghoomar is a traditional folk dance of Rajasthan. This dance form is mainly performed by the Bhil tribe to worship Goddess Sarasvati. It is characterized by its circular movements and elegant twirls.</p>
+                <p>Price:₹25,000</p>
+            </div>
+        </div>
+        
+        <div id="music1" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('music1')">&times;</span>
+                <h2>Rajasthani Folk Band</h2>
+                <p>Our Rajasthani Folk Band brings the true essence of Rajasthan's musical heritage. With traditional instruments and soulful tunes, they create an unforgettable experience.</p>
+                <p>Price:₹23,000</p>
+            </div>
+        </div>
+        
+        <div id="music2" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('music2')">&times;</span>
+                <h2>Classical Rajasthani Singer</h2>
+                <p>Enjoy a captivating performance by our classical Rajasthani singer, who will take you on a musical journey through Rajasthan's rich cultural heritage.</p>
+                <p>Price:₹33,350</p>
+            </div>
+        </div>
+        
+        <div id="fire1" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('fire1')">&times;</span>
+                <h2>Fire Dance Performance</h2>
+                <p>Our Fire Dance performance is an exhilarating act that showcases the bravery and skill of our performers. This spectacular performance will leave you in awe.</p>
+                <p>Price: $400</p>
+            </div>
+        </div>
+        
+        <div id="dj1" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('dj1')">&times;</span>
+                <h2>DJ Night</h2>
+                <p>Our DJ will get your party started with the latest hits and classic tracks, ensuring a night of non-stop dancing and fun.</p>
+                <p>Price: $500</p>
+            </div>
+        </div>
+        
+        <div id="band1" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('band1')">&times;</span>
+                <h2>Live Band Performance</h2>
+                <p>Our live band offers a perfect blend of traditional Rajasthani music and modern tunes, making your event memorable and entertaining.</p>
+                <p>Price: $600</p>
+            </div>
+        </div>
+        
+        <footer>
+            <p>&copy; 2024 Rajasthani Wedding Management. All rights reserved.</p>
+            <!-- <p>Contact us: <a href="mailto:info@rajasthaniweddings.com">info@rajasthaniweddings.com</a></p> -->
+        </footer>
+        
+</body>
+</html>

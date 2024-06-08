@@ -1,0 +1,117 @@
+:root {
+    --theme-color:#3867d6;
+  }
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+header {
+    background-color:#333;
+    color: var(--theme-color);;
+    padding: 15px 20px;
+    text-align: center;
+}
+nav {
+    margin: 10px 0;
+}
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+.hero {
+    background-image: url('musicimg/rajasthani_culture.jpg'); /* Replace with a suitable image URL */
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+    font-size: 2em;
+}
+.container {
+    padding: 10px;
+}
+.section-title {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: var(--theme-color);;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 400px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+.card img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.card-content {
+    padding: 15px;
+}
+.card-content h3 {
+    margin: 0;
+    color:var(--theme-color);;
+}
+.card-content p {
+    margin: 10px 0;
+}
+.card-content .price {
+    font-weight: bold;
+    color: #333;
+}
+footer {
+    background-color:#222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

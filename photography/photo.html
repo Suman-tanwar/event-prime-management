@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event prime Organisers</title>
+    <link rel="stylesheet" href="photo.css">
+    <script src="photo.js" defer></script>
+</head>
+<body>
+    <section id="video-photography">
+
+        <h2>
+            <span>Video & Photography</span></h2>
+        <p style="color: white">Capture the essence of your special day with our professional video and photography services, tailored to Rajasthani weddings.</p>
+ 
+        <div class="service-container">
+            <div class="service">
+                <img src="photos/video-service.jpg" alt="Video Service">
+                <h3>Wedding Videography</h3>
+                <p>High-quality videography to capture every precious moment of your wedding.</p>
+                <p class="price">Starting at ₹50,000</p>
+                <button onclick="showDetails('video')">View Details</button>
+            </div>
+            <div class="service">
+                <img src="photos/photography-service.jpg" alt="Photography Service">
+                <h3>Wedding Photography</h3>
+                <p>Beautiful photography to preserve the memories of your special day of wedding.</p>
+                <p class="price">Starting at ₹30,000</p>
+                <button onclick="showDetails('photo')">View Details</button>
+            </div>
+        </div>
+
+        <div id="details-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button" onclick="closeModal()">&times;</span>
+                <div id="details-content"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Rajasthani Wedding Management. All rights reserved.</p>
+    </footer>
+</body>
+</html>
