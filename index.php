@@ -12,6 +12,9 @@
   <!--swiper css-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
+  <!-- toast library -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
   <!--font awesome-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 
@@ -320,17 +323,18 @@
   <section class="contact" id="contact">
     <h1 class="heading"><span>contact</span> us</h1>
 
-    <form action="">
+    <form action="" id="form">
       <div class="inputBox">
-        <input type="text" placeholder="name" />
-        <input type="email" placeholder="email" />
+        <input type="text" placeholder="name" name="name"/>
+        <input type="email" placeholder="email" name="email" />
       </div>
       <div class="inputBox">
-        <input type="tel" placeholder="number" />
-        <input type="text" placeholder="subject" />
+        <input type="tel" placeholder="number"  name="number"/>
+        <input type="text" placeholder="subject" name="subject" />
       </div>
-      <textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea>
-      <input type="submit" value="send message" class="btn" />
+      <textarea name="message" placeholder="message" id="" cols="30" rows="10"></textarea>
+      <!-- <input type="submit" value="send message" class="btn" id="btn" /> -->
+      <button type="submit" class="btn" id="btn">send message</button>
     </form>
   </section>
 
@@ -402,6 +406,11 @@
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
+  <!-- form js file -->
+  <script src="form.js"></script>
+
+  <!-- toast code  -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
   <!--JS file-->
   <script src="app.js"></script>
 </body>
